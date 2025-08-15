@@ -7,3 +7,6 @@ body {
 background: linear-gradient(153deg, rgba(54, 151, 255, 1) 0%, rgba(194, 0, 65, 1) 100%);
 min-height: 100vh;
 }
+*:hover {
+    transition: .2s;
+}
