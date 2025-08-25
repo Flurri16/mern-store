@@ -2,14 +2,13 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-export default function Layout({children}) {
+export default function Layout({ children }) {
   return (
-    <div className='flex flex-col min-h-screen'>
-        <Navbar></Navbar>
-        <div className="mx-auto flex flex-1 px-5">
-          {children}
-        </div>
-        <Footer></Footer>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-1 flex px-5 justify-center">{children}</main>
+      <Footer />
     </div>
   )
 }
+
